@@ -1,0 +1,566 @@
+@prefix conf: <http://w3id.org/scholarlydata/ontology/conference-ontology.owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix event: <https://w3id.org/scholarlydata/event/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix person: <https://w3id.org/scholarlydata/person/> .
+@prefix role: <http://w3id.org/scholarlydata/role/> .
+
+event:LM-KBC2025 a conf:Workshop ;
+    dct:description """Language models (LMs), such as chatGPT, BARD, and T5, have demonstrated remarkable outcomes in numerous AI applications. Research has shown that these models implicitly capture vast amounts of factual knowledge within their parameters, resulting in an impressive performance in knowledge-intensive applications. The seminal paper ``Language Models as Knowledge Bases?'' sparked interest in the spectrum between language models and knowledge graphs, leading to a diverse range of interesting research on the usage of LMs for knowledge base construction.
+ This research includes:
+ (1) utilizing pre-trained LMs for knowledge base completion and construction tasks,
+ (2) performing information extraction tasks, like entity linking and relation extraction, and 
+ (3) utilizing knowledge graphs to support LM applications.
+ In this third edition of the LM-KBC workshop, we aim to continue last year's very successful 2nd edition of the LM-KBC workshop.""" ;
+    dct:subject "Knowledge bases (KBs)",
+        "Knowledge graphs (KGs)",
+        "Language models (LLMs)" ;
+    dct:title "3rd Knowledge Base Construction from Pre-trained Language Models Workshop" ;
+    conf:hasChair <https://w3id.org/scholarlydata/role/LM-KBC2025_organizer1_role>,
+        <https://w3id.org/scholarlydata/role/LM-KBC2025_organizer2_role>,
+        <https://w3id.org/scholarlydata/role/LM-KBC2025_organizer3_role>,
+        <https://w3id.org/scholarlydata/role/LM-KBC2025_organizer4_role> ;
+    conf:hasSocialMediaAccount "https://x.com/lm_kbc" ;
+    foaf:homepage "https://lm-kbc.github.io/workshop2025" .
+
+event:Sci-K2025 a conf:Workshop ;
+    dct:description """In the last decades, there has been a surge in the volume of published scientific articles and related research objects (e.g., data sets, software, models), a trend that is expected to continue.  
+ The Sci-K workshop aims to provide a forum for researchers and practitioners from different disciplines to present, educate from, and guide research related to scientific knowledge. Specifically, we foresee three main challenging themes.
+ Representation: There is an urge for Scientific Knowledge Graphs (SKGs), that offer flexible, context-sensitive, fine-grained, and machine-actionable representations of scholarly knowledge that are simultaneously structured, interlinked, and semantically rich. 
+ The key challenge in this area is the development of ontologies and methodologies that can capture the conceptualisation, representation, and interoperability of scholarly knowledge across different SKGs. 
+ Discovery: It is crucial that scholarly information is easily findable, discoverable, and visible so that it can be mined and organised within SKGs. Current challenges are related to discovering and extracting entities and concepts, integrating information from heterogeneous sources, identifying duplicates, finding connections between entities, and identifying conceptual inconsistencies. 
+ Assessment: Due to the continuous growth in the volume of research outputs, we need reliable and comprehensive indicators of scientific impact and merit for the diverse scientific outputs and actors.""" ;
+    dct:subject "Knowledge Discovery",
+        "Knowledge Graphs",
+        "Research Assessment",
+        "Research Impact",
+        "Scholarly Data",
+        "Science Of Science" ;
+    dct:title "5th International Workshop on Scientific Knowledge Representation, Discovery, and Assessment (Sci-K 2025)" ;
+    conf:hasChair <https://w3id.org/scholarlydata/role/Sci-K2025_organizer1_role>,
+        <https://w3id.org/scholarlydata/role/Sci-K2025_organizer2_role>,
+        <https://w3id.org/scholarlydata/role/Sci-K2025_organizer3_role>,
+        <https://w3id.org/scholarlydata/role/Sci-K2025_organizer4_role>,
+        <https://w3id.org/scholarlydata/role/Sci-K2025_organizer5_role>,
+        <https://w3id.org/scholarlydata/role/Sci-K2025_organizer6_role>,
+        <https://w3id.org/scholarlydata/role/Sci-K2025_organizer7_role> ;
+    conf:hasSocialMediaAccount "X: @scik_workshop, LinkedIn: Sci-k workshop" ;
+    foaf:homepage "https://sci-k.github.io/2025/" .
+
+event:AKR2025 a conf:Workshop ;
+    dct:description """We propose a second edition for the Actionable Knowledge Representation and Reasoning for Robots workshop, focused on how robots can perform common sense reasoning to make sense of their environment, parameterize their actions and plan accordingly.
+ Current robots are challenged by the dynamic nature of these environments, which requires them to deal with new situations, tasks, objects and goals they might not have experience with.
+ As robots can't be pre-programmed for all possible variations, it is an important question to investigate how they can be equipped with the ability to acquire and apply commonsense knowledge to improve their sensemaking capabilities and reason about task execution.
+ This can lead to more versatile robots, as they can tackle novel situations through reasoning instead of retraining.
+ Given the availability of many commonsense knowledge resources on the Web, and the ability of large language models to extract and generate knowledge, this is a timely research topic. 
+ Our workshop will combine classical workshop elements (presentation of contributed papers, invited speakers) with hands-on tutorials to learn how symbolic knowledge can be put into action in existing robot architectures. 
+ Based on last year's experience, we expect to get approximately 8 submissions and 20-30 workshop participants.""" ;
+    dct:subject "Action Grounding",
+        "Cognitive Robotics",
+        "Embodied Commonsense",
+        "Knowledge Representation",
+        "Knowledge-Enhanced Robotics",
+        "Multi-modal AI Reasoning" ;
+    dct:title "Workshop on Actionable Knowledge Representation and Reasoning for Robots (AKR¬≥) (2nd Edition)" ;
+    conf:hasChair <https://w3id.org/scholarlydata/role/AKR2025_organizer1_role>,
+        <https://w3id.org/scholarlydata/role/AKR2025_organizer2_role>,
+        <https://w3id.org/scholarlydata/role/AKR2025_organizer3_role>,
+        <https://w3id.org/scholarlydata/role/AKR2025_organizer4_role>,
+        <https://w3id.org/scholarlydata/role/AKR2025_organizer5_role>,
+        <https://w3id.org/scholarlydata/role/AKR2025_organizer6_role>,
+        <https://w3id.org/scholarlydata/role/AKR2025_organizer7_role>,
+        <https://w3id.org/scholarlydata/role/AKR2025_organizer8_role> ;
+    conf:hasSocialMediaAccount "None" ;
+    foaf:homepage "https://kr3-workshop.net/" .
+
+event:H212025 a conf:Workshop ;
+    dct:description "The principled integration of Hybrid Intelligence (HI) -- which combines human and artificial intelligence -- with the Semantic Web presents novel opportunities for enhancing decision-making, knowledge representation, and collaborative problem-solving. This workshop promotes the exploration at the intersection of these domains, focusing on how semantic technologies (e.g., ontologies, knowledge graphs, and linked data) can improve the adaptability, explainability, and reasoning capabilities of hybrid intelligence systems. Topics include human-AI collaboration, trustworthy AI, context-aware knowledge management, and real-world applications in areas such as healthcare, finance, and smart cities. At ``Smarter Together: Bridging Hybrid Intelligence and the Semantic Web,'' participants will engage across disciplinary boundaries, fostering interdisciplinary collaboration toward more robust, intelligent, transparent, and ethical AI-driven systems. The workshop will generally consist of a keynote, interactive discussions and breakouts, and brief, but informative, state-of-the-art research presentations." ;
+    dct:subject "Cognitive Architectures",
+        "Human Factors",
+        "Human in the loop",
+        "Hybrid Intelligence",
+        "Knowledge Representation and Reasoning",
+        "Neurosymbolic AI" ;
+    dct:title "HAIBridge 2025: 1st Workshop on Bridging Hybrid (Artificial) Intelligence and the Semantic Web" ;
+    conf:hasChair <https://w3id.org/scholarlydata/role/H212025_organizer1_role>,
+        <https://w3id.org/scholarlydata/role/H212025_organizer2_role>,
+        <https://w3id.org/scholarlydata/role/H212025_organizer3_role>,
+        <https://w3id.org/scholarlydata/role/H212025_organizer4_role> ;
+    conf:hasSocialMediaAccount "none" ;
+    foaf:homepage "https://sites.google.com/view/iswc-haibridge25/home" .
+
+event:OM2025 a conf:Workshop ;
+    dct:description """Ontology matching is a key interoperability enabler for the Semantic Web, as well as a useful technique in some classical data integration tasks dealing with the semantic heterogeneity problem. It takes ontologies as input and determines as output an alignment, that is, a set of correspondences between the semantically related entities of those ontologies. These correspondences can be used for various tasks, such as ontology merging, data interlinking, query answering or navigation over knowledge graphs. Thus, matching ontologies enables the knowledge and data expressed with the matched ontologies to interoperate.
+ The workshop has the following goals:
+ - To bring together leaders from academia, industry and user institutions to assess how academic advances are addressing real-world requirements. The workshop will strive to improve academic awareness of industrial and final user needs, and therefore, direct research towards those needs. Simultaneously, the workshop will serve to inform industry and user representatives about existing research efforts that may meet their requirements. The workshop will also investigate how the ontology matching technology is going to evolve, especially with respect to data interlinking, process matching, web table and knowledge graph matching tasks.
+ - To conduct an extensive and rigorous evaluation of ontology matching and instance matching (link discovery) approaches through the OAEI (Ontology Alignment Evaluation Initiative) 2025 campaign. OAEI 2025, besides real-world specific matching tasks, will introduce a new Circular Economy track. Therefore, the ontology matching evaluation initiative itself will provide a solid ground for discussion of how well the current approaches are meeting business needs.
+ - To examine similarities and differences from other, old, new and emerging, techniques and usages, such as process matching, web table matching or knowledge embeddings.""" ;
+    dct:subject "Knowldge Graph Alignment",
+        "Matching and deep learning",
+        "Matching and embeddings",
+        "Matching and large language models",
+        "Ontology Matching" ;
+    dct:title "20th International Workshop on Ontology Matching (OM-2025)" ;
+    conf:hasChair <https://w3id.org/scholarlydata/role/OM2025_organizer1_role>,
+        <https://w3id.org/scholarlydata/role/OM2025_organizer2_role>,
+        <https://w3id.org/scholarlydata/role/OM2025_organizer3_role>,
+        <https://w3id.org/scholarlydata/role/OM2025_organizer4_role>,
+        <https://w3id.org/scholarlydata/role/OM2025_organizer5_role>,
+        <https://w3id.org/scholarlydata/role/OM2025_organizer6_role>,
+        <https://w3id.org/scholarlydata/role/OM2025_organizer7_role> ;
+    foaf:homepage "https://om.ontologymatching.org/2025/" .
+
+event:RAGE-KG2025 a conf:Workshop ;
+    dct:description "Retrieval-Augmented Generation Enabled by Knowledge Graphs (RAGE-KG) aims to explore the state of the art and go beyond in integrating Retrieval-Augmented Generation (RAG) with the Semantic Web infrastructure as well as the synergies between Large Language Models (LLMs) and the Linked Open Data (LOD) ecosystem. The workshop seeks to foster innovative RAG and GraphRAG architectures relying on Semantic Web standards and new approaches to make LOD usable by LLMs, enhancing their ability to generate reliable, verifiable and context-aware responses based on structured, decentralized and authoritative data sources. The workshop is majorly focused on techniques for fine-tuning, prompting and otherwise integrating LLMs with KGs. Additionally, it will examine the development and application of RAG architectures across various use cases and provide a platform to advance research and innovation in this dynamic field. Building on the success and strong attendance of the last year, this year's workshop will include dynamic elements: (a) Pecha Kucha presentations of scientific research -- the backbone of the workshop, (b) industry papers and guest speakers showcasing the real-world applications of the technology and (c) a structured research matchmaking session stimulating collaborations and producing vision statements which will be included in the proceedings." ;
+    dct:subject "Knowledge Graphs",
+        "Large Language Models",
+        "Linked Open Data",
+        "Neurosymbolic AI",
+        "Retrieval-Augmented Generation",
+        "Semantic Web" ;
+    dct:title "2nd International Workshop on Retrieval-Augmented Generation Enabled by Knowledge Graphs (RAGE-KG 2025)" ;
+    conf:hasChair <https://w3id.org/scholarlydata/role/RAGE-KG2025_organizer1_role>,
+        <https://w3id.org/scholarlydata/role/RAGE-KG2025_organizer2_role>,
+        <https://w3id.org/scholarlydata/role/RAGE-KG2025_organizer3_role>,
+        <https://w3id.org/scholarlydata/role/RAGE-KG2025_organizer4_role>,
+        <https://w3id.org/scholarlydata/role/RAGE-KG2025_organizer5_role> ;
+    conf:hasSocialMediaAccount "Bluesky: https://bsky.app/profile/rage-kg.bsky.social Mastodon: https://mastodon.social/@ragekg LinkedIn: https://www.linkedin.com/company/rage-kg X: https://x.com/rage_kg #ragekg" ;
+    foaf:homepage "https://2025.rage-kg.org " .
+
+event:SeMatS2025 a conf:Workshop ;
+    dct:description """Advanced technological solutions are pivotal for leveraging data in innovative research, but compatibility issues in scientific data hinder progress. Interoperability and efficient data access are crucial, and the Semantic Web emerges as a powerful solution.
+ Historically, the intersection between Semantic Web (SW) technologies, and Materials Science and Engineering (MSE) dates back before the formalization of the Semantic Web concept in 2001. For instance, the creation of the Plinius ontology in 1994 provided a language-independent conceptual construction kit for the chemical composition of materials.
+ Recent conferences in the MSE domain, such as the FEMS-Euromat (European Congress and Exhibition on Advanced Materials and Processes) and MSE congress, show a significant increase in Semantic Web applications, with over ten SW-related presentations in 2022, more than 20 in 2023 and the previous edition of the SeMats workshop in 2024 counted 10 accepted contributions. This growing adoption prompts a focus on attracting participants at the intersection of both areas.
+ Expanding Semantic Web technologies to the Materials Science domain can enhance research outcomes by enabling the uniform consideration of heterogeneous data. It improves traceability and reproducibility and facilitates automatable data management solutions. The primary objective of the proposed workshop is to gather works applying Semantic Web Technologies in Materials Science, making these technologies accessible to a broader community.
+ The workshop aims to provide an overview of existing approaches, identify relevant works, and bring together Materials Science and Semantic Web stakeholders for collaboration and innovation. Join us in exploring the transformative possibilities of Semantic Web Technologies in Materials Science, paving the way for a more interconnected and efficient research landscape.""" ;
+    dct:subject "Knowledge Graphs",
+        "Materials Science Engineering",
+        "Semantic Web" ;
+    dct:title "SeMatS 2025 Second International Workshop on Semantic Materials Science: Harnessing the Power of Semantic Web Technologies in Materials Science" ;
+    conf:hasChair <https://w3id.org/scholarlydata/role/SeMatS2025_organizer1_role>,
+        <https://w3id.org/scholarlydata/role/SeMatS2025_organizer2_role>,
+        <https://w3id.org/scholarlydata/role/SeMatS2025_organizer3_role>,
+        <https://w3id.org/scholarlydata/role/SeMatS2025_organizer4_role> ;
+    conf:hasSocialMediaAccount "X and Linkedln: @semats2025 #semats2025" ;
+    foaf:homepage "https://sites.google.com/view/semats2025" .
+
+event:WOP2025 a conf:Workshop ;
+    dct:description "We propose the 16th edition of the Workshop on Ontology Design and Patterns (WOP). The workshop series covers issues related to quality in ontology design and ontology design patterns (ODPs) for data and knowledge engineering in Semantic Web. The increased attention to ODPs in recent years through their interaction with emerging trends of the Semantic Web, such as knowledge graphs, can be attributed to their benefit for knowledge engineers and Semantic Web developers. Such benefits come in the form of direct links to requirements, reuse, guidance, and better communication. The workshop's aim is thus not just: 1) providing an arena for discussing patterns, pattern-based ontologies, systems, datasets, but also 2) broadening the pattern community by developing its own ``discourse'' for discussing and describing relevant problems and their solutions. A recent development in the Semantic Web community is that the general idea of \"pattern\" has begun to appear in different but related forms, and at WOP 2025, we intend to continue to include these new trends. We propose a full-day workshop consisting of three parts: a keynote, presentations of contributed papers, and a community session discussing joint long-term initiatives, with break-out sessions addressing specific problems." ;
+    dct:subject "Knowledge Engineering",
+        "Ontology Design Patterns",
+        "Quality Control",
+        "Reusability" ;
+    dct:title "16th Workshop on Ontology Design and Patterns (WOP) 2025" ;
+    conf:hasChair <https://w3id.org/scholarlydata/role/WOP2025_organizer1_role>,
+        <https://w3id.org/scholarlydata/role/WOP2025_organizer2_role>,
+        <https://w3id.org/scholarlydata/role/WOP2025_organizer3_role>,
+        <https://w3id.org/scholarlydata/role/WOP2025_organizer4_role>,
+        <https://w3id.org/scholarlydata/role/WOP2025_organizer5_role> ;
+    conf:hasSocialMediaAccount "none" ;
+    foaf:homepage "https://odpa.github.io/workshop-on-ontology-design-and-patterns/2025/index.html" .
+
+event:WikidataWorkshop2025 a conf:Workshop ;
+    dct:description "Wikidata, an open knowledge base maintained by the Wikimedia Foundation, plays a crucial role in structuring data for projects, such as Wikipedia and Wiktionary. Over the years, the Wikidata Workshop has addressed key challenges such as data quality, multilingualism, and collaborative knowledge graph dynamics. For its fifth edition, we expand the scope to include discussions on the intersection of Wikidata and Generative AI, while continuing to explore established topics. We welcome contributions on knowledge augmentation, data curation, reasoning, and the broader impact of generative AI on Wikidata. By bringing together researchers and practitioners, this workshop fosters discussions on the evolving role of knowledge graphs in an AI-driven world." ;
+    dct:subject "Generative AI",
+        "Knowledge Graphs",
+        "Large Language Models",
+        "Wikidata" ;
+    dct:title "Wikidata Workshop" ;
+    conf:hasChair <https://w3id.org/scholarlydata/role/WikidataWorkshop2025_organizer1_role>,
+        <https://w3id.org/scholarlydata/role/WikidataWorkshop2025_organizer2_role>,
+        <https://w3id.org/scholarlydata/role/WikidataWorkshop2025_organizer3_role>,
+        <https://w3id.org/scholarlydata/role/WikidataWorkshop2025_organizer4_role>,
+        <https://w3id.org/scholarlydata/role/WikidataWorkshop2025_organizer5_role> .
+
+person:LM-KBC2025_organizer1 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/LM-KBC2025_organizer1_role> ;
+    foaf:name "Duygu Sezen Islakoğlu" .
+
+person:LM-KBC2025_organizer2 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/LM-KBC2025_organizer2_role> ;
+    foaf:name "Jan-Christoph Kalo" .
+
+person:LM-KBC2025_organizer3 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/LM-KBC2025_organizer3_role> ;
+    foaf:name "Simon Razniewski" .
+
+person:LM-KBC2025_organizer4 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/LM-KBC2025_organizer4_role> ;
+    foaf:name "Sneha Singhania" .
+
+person:Sci-K2025_organizer1 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/Sci-K2025_organizer1_role> ;
+    foaf:name "Anna Jacyszyn" .
+
+person:Sci-K2025_organizer2 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/Sci-K2025_organizer2_role> ;
+    foaf:name "Andrea Mannocci" .
+
+person:Sci-K2025_organizer3 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/Sci-K2025_organizer3_role> ;
+    foaf:name "Francesco Osborne" .
+
+person:Sci-K2025_organizer4 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/Sci-K2025_organizer4_role> ;
+    foaf:name "Georg Rehm" .
+
+person:Sci-K2025_organizer5 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/Sci-K2025_organizer5_role> ;
+    foaf:name "Angelo Salatino" .
+
+person:Sci-K2025_organizer6 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/Sci-K2025_organizer6_role> ;
+    foaf:name "Sonja Schimmler" .
+
+person:Sci-K2025_organizer7 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/Sci-K2025_organizer7_role> ;
+    foaf:name "Lise Stork" .
+
+person:AKR2025_organizer1 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/AKR2025_organizer1_role> ;
+    foaf:name "Michael Beetz" .
+
+person:AKR2025_organizer2 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/AKR2025_organizer2_role> ;
+    foaf:name "Philipp Cimiano" .
+
+person:AKR2025_organizer3 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/AKR2025_organizer3_role> ;
+    foaf:name "Ken Fukuda" .
+
+person:AKR2025_organizer4 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/AKR2025_organizer4_role> ;
+    foaf:name "Michaela Kümpel" .
+
+person:AKR2025_organizer5 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/AKR2025_organizer5_role> ;
+    foaf:name "Enrico Motta" .
+
+person:AKR2025_organizer6 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/AKR2025_organizer6_role> ;
+    foaf:name "Ilaria Tiddi" .
+
+person:AKR2025_organizer7 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/AKR2025_organizer7_role> ;
+    foaf:name "Jan-Philipp Töberg" .
+
+person:AKR2025_organizer8 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/AKR2025_organizer8_role> ;
+    foaf:name "Takanori Ugai" .
+
+person:H212025_organizer1 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/H212025_organizer1_role> ;
+    foaf:name "Alexis Ellis" .
+
+person:H212025_organizer2 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/H212025_organizer2_role> ;
+    foaf:name "Subhashini Ganapathy" .
+
+person:H212025_organizer3 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/H212025_organizer3_role> ;
+    foaf:name "Fjollë Novakazi" .
+
+person:H212025_organizer4 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/H212025_organizer4_role> ;
+    foaf:name "Cogan Shimizu" .
+
+person:OM2025_organizer1 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/OM2025_organizer1_role> ;
+    foaf:name "Sven Hertling" .
+
+person:OM2025_organizer2 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/OM2025_organizer2_role> ;
+    foaf:name "Huanyu Li" .
+
+person:OM2025_organizer3 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/OM2025_organizer3_role> ;
+    foaf:name "Cassia Trojahn" .
+
+person:OM2025_organizer4 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/OM2025_organizer4_role> ;
+    foaf:name "Pavel Shvaiko" .
+
+person:OM2025_organizer5 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/OM2025_organizer5_role> ;
+    foaf:name "Oktie Hassanzadeh" .
+
+person:OM2025_organizer6 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/OM2025_organizer6_role> ;
+    foaf:name "Jérôme Euzenat" .
+
+person:OM2025_organizer7 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/OM2025_organizer7_role> ;
+    foaf:name "Ernesto Jimenez-Ruiz" .
+
+person:RAGE-KG2025_organizer1 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/RAGE-KG2025_organizer1_role> ;
+    foaf:name "Daniil Dobriy" .
+
+person:RAGE-KG2025_organizer2 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/RAGE-KG2025_organizer2_role> ;
+    foaf:name "Sanju Tiwari" .
+
+person:RAGE-KG2025_organizer3 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/RAGE-KG2025_organizer3_role> ;
+    foaf:name "Jennifer D'Souza" .
+
+person:RAGE-KG2025_organizer4 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/RAGE-KG2025_organizer4_role> ;
+    foaf:name "Nandana Mihindukulasooriya" .
+
+person:RAGE-KG2025_organizer5 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/RAGE-KG2025_organizer5_role> ;
+    foaf:name "Francesco Osborne" .
+
+person:SeMatS2025_organizer1 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/SeMatS2025_organizer1_role> ;
+    foaf:name "Andre Valdestilhas" .
+
+person:SeMatS2025_organizer2 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/SeMatS2025_organizer2_role> ;
+    foaf:name "Huanyu Li" .
+
+person:SeMatS2025_organizer3 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/SeMatS2025_organizer3_role> ;
+    foaf:name "Patrick Lambrix" .
+
+person:SeMatS2025_organizer4 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/SeMatS2025_organizer4_role> ;
+    foaf:name "Harald Sack" .
+
+person:WOP2025_organizer1 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/WOP2025_organizer1_role> ;
+    foaf:name "Hande Kucuk McGinty" .
+
+person:WOP2025_organizer2 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/WOP2025_organizer2_role> ;
+    foaf:name "Cogan Shimizu" .
+
+person:WOP2025_organizer3 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/WOP2025_organizer3_role> ;
+    foaf:name "Valentina Presutti" .
+
+person:WOP2025_organizer4 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/WOP2025_organizer4_role> ;
+    foaf:name "Eva Blomqvist" .
+
+person:WOP2025_organizer5 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/WOP2025_organizer5_role> ;
+    foaf:name "Pascal Hitzler" .
+
+person:WikidataWorkshop2025_organizer1 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/WikidataWorkshop2025_organizer1_role> ;
+    foaf:name "Nicolas Ferranti" .
+
+person:WikidataWorkshop2025_organizer2 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/WikidataWorkshop2025_organizer2_role> ;
+    foaf:name "Marcelo de Oliveira Costa Machado" .
+
+person:WikidataWorkshop2025_organizer3 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/WikidataWorkshop2025_organizer3_role> ;
+    foaf:name "Jorao Gomes Junior" .
+
+person:WikidataWorkshop2025_organizer4 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/WikidataWorkshop2025_organizer4_role> ;
+    foaf:name "Simon Raznievski" .
+
+person:WikidataWorkshop2025_organizer5 a conf:Person ;
+    conf:holdsRole <https://w3id.org/scholarlydata/role/WikidataWorkshop2025_organizer5_role> ;
+    foaf:name "Axel Polleres" .
+
+<https://w3id.org/scholarlydata/role/LM-KBC2025_organizer1_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:LM-KBC2025_organizer1 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/LM-KBC2025_organizer2_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:LM-KBC2025_organizer2 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/LM-KBC2025_organizer3_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:LM-KBC2025_organizer3 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/LM-KBC2025_organizer4_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:LM-KBC2025_organizer4 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/Sci-K2025_organizer1_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:Sci-K2025_organizer1 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/Sci-K2025_organizer2_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:Sci-K2025_organizer2 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/Sci-K2025_organizer3_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:Sci-K2025_organizer3 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/Sci-K2025_organizer4_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:Sci-K2025_organizer4 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/Sci-K2025_organizer5_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:Sci-K2025_organizer5 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/Sci-K2025_organizer6_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:Sci-K2025_organizer6 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/Sci-K2025_organizer7_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:Sci-K2025_organizer7 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/AKR2025_organizer1_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:AKR2025_organizer1 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/AKR2025_organizer2_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:AKR2025_organizer2 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/AKR2025_organizer3_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:AKR2025_organizer3 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/AKR2025_organizer4_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:AKR2025_organizer4 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/AKR2025_organizer5_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:AKR2025_organizer5 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/AKR2025_organizer6_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:AKR2025_organizer6 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/AKR2025_organizer7_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:AKR2025_organizer7 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/AKR2025_organizer8_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:AKR2025_organizer8 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/H212025_organizer1_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:H212025_organizer1 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/H212025_organizer2_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:H212025_organizer2 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/H212025_organizer3_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:H212025_organizer3 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/H212025_organizer4_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:H212025_organizer4 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/OM2025_organizer1_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:OM2025_organizer1 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/OM2025_organizer2_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:OM2025_organizer2 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/OM2025_organizer3_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:OM2025_organizer3 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/OM2025_organizer4_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:OM2025_organizer4 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/OM2025_organizer5_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:OM2025_organizer5 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/OM2025_organizer6_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:OM2025_organizer6 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/OM2025_organizer7_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:OM2025_organizer7 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/RAGE-KG2025_organizer1_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:RAGE-KG2025_organizer1 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/RAGE-KG2025_organizer2_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:RAGE-KG2025_organizer2 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/RAGE-KG2025_organizer3_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:RAGE-KG2025_organizer3 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/RAGE-KG2025_organizer4_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:RAGE-KG2025_organizer4 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/RAGE-KG2025_organizer5_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:RAGE-KG2025_organizer5 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/SeMatS2025_organizer1_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:SeMatS2025_organizer1 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/SeMatS2025_organizer2_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:SeMatS2025_organizer2 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/SeMatS2025_organizer3_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:SeMatS2025_organizer3 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/SeMatS2025_organizer4_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:SeMatS2025_organizer4 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/WOP2025_organizer1_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:WOP2025_organizer1 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/WOP2025_organizer2_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:WOP2025_organizer2 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/WOP2025_organizer3_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:WOP2025_organizer3 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/WOP2025_organizer4_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:WOP2025_organizer4 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/WOP2025_organizer5_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:WOP2025_organizer5 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/WikidataWorkshop2025_organizer1_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:WikidataWorkshop2025_organizer1 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/WikidataWorkshop2025_organizer2_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:WikidataWorkshop2025_organizer2 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/WikidataWorkshop2025_organizer3_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:WikidataWorkshop2025_organizer3 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/WikidataWorkshop2025_organizer4_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:WikidataWorkshop2025_organizer4 ;
+    conf:withRole role:organizer .
+
+<https://w3id.org/scholarlydata/role/WikidataWorkshop2025_organizer5_role> a conf:OrganizingRole ;
+    conf:isHeldBy person:WikidataWorkshop2025_organizer5 ;
+    conf:withRole role:organizer .
+
