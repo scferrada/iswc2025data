@@ -1,0 +1,25 @@
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix conf:   <http://w3id.org/scholarlydata/ontology/conference-ontology.owl#> .
+@prefix event:  <http://w3id.org/scholarlydata/event/> .
+@prefix :       <http://w3id.org/scholarlydata/conference/> .
+
+:ISWC2025
+    a conf:Conference ;
+    dct:title "24th International Semantic Web Conference (ISWC 2025)" ;
+    conf:hasStartDate "2025-11-02"^^xsd:date ;
+    conf:hasEndDate   "2025-11-06"^^xsd:date ;
+    conf:hasConferenceNumber 24 ;
+    conf:hasOfficialWebsite <https://iswc2025.semanticweb.org/> ;
+    conf:hasLocation "Nara Prefectural Convention Center, Nara, Japan" ;
+    conf:hasVenue :NaraVenue ;
+    
+    conf:hasSubEvent event:LM-KBC2025 ,
+                     event:Sci-K2025 ,
+                     event:AKR2025 ,
+                     event:HAIBridge2025 ,
+                     event:OM2025 ,
+                     event:RAGE-KG2025 ,
+                     event:SeMatS2025 ,
+                     event:WOP2025 ,
+                     event:WikidataWorkshop2025 .
